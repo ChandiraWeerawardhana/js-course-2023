@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title>Product details</title>
+    <style>
+      p {
+        font-family: Arial;
+      }
+      .product {
+        font-size: 20px;
+      }
+      .price {
+        font-size: 16px;
+      }
+      button {
+        cursor: pointer;
+      }
+      .add-button {
+        background-color: yellow;
+      }
+      .buy-button {
+        background-color: orange;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p class="product">Adults Plain Cotton T-shirt</p>
+
+    <p class="price">Price: $7.99</p>
+
+    <button class="add-button" onclick="
+    alert('Added');
+    ">
+      Add to cart
+    </button>
+
+    <button class="buy-button" onclick="
+    console.log('Loading...');
+    alert('Purchased');
+    ">
+      Buy now
+    </button>
+  </body>
+</html>
